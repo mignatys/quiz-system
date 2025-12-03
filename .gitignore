@@ -1,0 +1,23 @@
+cat <<'EOF' > .gitignore
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+.env
+
+# Virtual environment
+/opt/quiz-venv
+venv/
+*.egg-info/
+
+# Logs
+*.log
+nohup.out
+
+# System files
+.DS_Store
+*.swp
+EOF

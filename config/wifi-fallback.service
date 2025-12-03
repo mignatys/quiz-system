@@ -1,0 +1,10 @@
+[Unit]
+Description=Wi-Fi fallback hotspot
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/wifi-fallback.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
