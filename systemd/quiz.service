@@ -1,0 +1,13 @@
+[Unit]
+Description=Quiz Flask Server
+After=network.target
+
+[Service]
+ExecStart=/opt/quiz/venv/bin/python /opt/quiz/app/run.py
+WorkingDirectory=/opt/quiz/app
+# PI_USER will be replaced by install.sh
+User=PI_USER
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

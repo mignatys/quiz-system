@@ -1,4 +1,3 @@
-cat <<'EOF' > .gitignore
 # Python
 __pycache__/
 *.pyc
@@ -20,4 +19,5 @@ nohup.out
 # System files
 .DS_Store
 *.swp
-EOF
+
+.idea/

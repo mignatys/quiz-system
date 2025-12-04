@@ -1,0 +1,12 @@
+[Unit]
+Description=MagicMirror Kiosk UI
+After=network.target systemd-user-sessions.service
+
+[Service]
+User=PI_USER
+ExecStart=/usr/bin/startx
+Restart=always
+RestartSec=5s
+
+[Install]
+WantedBy=graphical.target
