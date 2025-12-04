@@ -13,5 +13,12 @@ xserver-xorg
 xinit
 openbox
 unclutter
-dbus
-systemd
+libnspr4
+python3-xdg
+libnss3
+libatk1.0-0
+libgtk-3-0
+libgdk-pixbuf-xlib-2.0-0
+libasound2
+libxtst6
+dbus-x11

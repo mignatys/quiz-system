@@ -1,15 +1,16 @@
 /* global Module */
 
-/* MagicMirror²
+/* Magic Mirror
  * Module: QuizGame
  *
- * By Michael Teeuw https://michaelteeuw.nl
+ * By Michael Teeuw http://michaelteeuw.nl
  * MIT Licensed.
  */
+
 Module.register("QuizGame", {
 	// Default module config.
 	defaults: {
-		text: "Hello World!"
+		text: "Welcome to the quiz game!"
 	},
 
 	// Override dom generator.
